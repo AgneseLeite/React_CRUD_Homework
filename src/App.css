@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  font-family: 'Bree Serif', serif;
+  background-color: rgb(136, 133, 165);
+}
+
+.container {
+  padding: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.heading {
+  font-size: 7rem;
+  font-weight: bolder;
+  color: rgb(42, 66, 87);
+  margin-bottom: 2rem;
+  -webkit-text-stroke: 1px rgb(222, 223, 237);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1.2rem;
+  max-width: 28rem;
+  background-color: rgb(200, 201, 214);
+  margin: 1.5rem;
+  border-radius: 20px;
+  border: 3px solid rgb(222, 223, 237);
+  box-shadow: 0 0 6px 3px rgb(75, 73, 88);
+}
+
+.card-title {
+  font-size: 2rem;
+  margin: 12px;
+  color: rgb(65, 40, 88);
+}
+
+.quote-text {
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.form {
+ display: none;
+}
+
+.active {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 26rem;
+}
+
+.image {
+  max-width: 23rem;
+  max-height: 28rem;
+  border-radius: 10px;
+  border: 3px solid rgb(222, 223, 237);
+}
+
+.add-new {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: rgb(200, 201, 214);
+  max-width: 28rem;
+  padding: 2rem;
+  margin-left: 1.7rem;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 3px rgb(75, 73, 88);
+}
+
+button {
+  padding: 5px 20px;
+  margin: 0 10px;
+  max-width: 8rem;
+  border-radius: 8px;
+  border: 2ps solid rgb(65, 40, 88);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgb(136, 133, 165);
+  transition: .2s;
+  color: white;
+}

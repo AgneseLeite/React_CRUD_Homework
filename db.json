@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "src": "https://www.usnews.com/cmsmedia/bc/5d2d9c480d22d25398fdda7492772d/media:31dae85909ab48e3a3c102b1e9fb9a5bFaulknerandtheStage.JPEG",
+      "name": "William Faulkner",
+      "quote": "'Don't bother just to be better than your contemporaries or predecessors. Try to be better than yourself.'"
+    },
+    {
+      "id": 2,
+      "src": "https://en.vogue.me/wp-content/uploads/2020/05/GettyImages-517422786.jpg",
+      "name": "Audrey Hepburn",
+      "quote": "'Nothing is impossible. The word itself says I'm possible.'"
+    },
+    {
+      "id": 3,
+      "src": "https://images-na.ssl-images-amazon.com/images/I/51wjv-pb2AL._AC_SL1052_.jpg",
+      "name": "John F. Kennedy",
+      "quote": "'The greater our knowledge increases the more our ignorance unfolds.'"
+    },
+    {
+      "id": 4,
+      "src": "http://i-exc.ccm2.net/iex/1280/2129898460/726961.png",
+      "name": "George Bernard Shaw",
+      "quote": "'Life isn't about finding yourself. Life is about creating yourself.'"
+    }
+  ]
+}
